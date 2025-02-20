@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MindWell - Your Journey to Better Mental Health</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <script src="js/scripts.js"></script>
+
+    <!-- Heart Icons -->
+    <div class="heart top-left">&#x2764;</div>
+    <div class="heart top-right">&#x2764;</div>
+    <div class="heart bottom-left">&#x2764;</div>
+    <div class="heart bottom-right">&#x2764;</div>
+
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">MindWell</div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="#get-started" class="cta-button">Get Started</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay">
+            <h1>Your Journey to Better Mental Health</h1>
+            <p>Supportive, confidential, and professional mental health services.</p>
+            <a href="#services" class="cta-button">Learn More</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-cards">
+                <div class="card">
+                    <img src="images/therapy-image.jpg" alt="Therapy">
+                    <h3>Therapy</h3>
+                    <p>Individual and group therapy sessions to support your mental well-being.</p>
+                </div>
+                <div class="card">
+                    <img src="images/resources-image.jpg" alt="Resources">
+                    <h3>Resources</h3>
+                    <p>Access to a variety of mental health resources and self-help tools.</p>
+                </div>
+                <div class="card">
+                    <img src="images/community-image.jpg" alt="Community">
+                    <h3>Community</h3>
+                    <p>Join a supportive community of individuals sharing similar experiences.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>MindWell is dedicated to providing comprehensive mental health services that cater to the unique needs of each individual. Our team of licensed professionals is here to support you on your journey to mental well-being.</p>
+        </div>
+        <h2 id="h2">Meet our therapists</h2>
+        <div class="card-container">
+            <div class="card">
+                <img src="./images/person1.jpg" alt="Person 1" class="card-image">
+                <div class="card-content">
+                    <h3>John Doe</h3>
+                    <p>John is a software developer with over 10 years of experience in the tech industry. He specializes in web development and AI.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/person4.jpg" alt="Person 2" class="card-image">
+                <div class="card-content">
+                    <h3>Jane Smith</h3>
+                    <p>Jane is a graphic designer known for her innovative designs and creative approach. She has won multiple awards for her work.</p>
+                </div>
+            </div>
+            <!-- Add more cards as needed -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="/submit-form" method="post">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="social-media">
+                    <a href="#"><img src="images/facebook-icon.png" alt="Facebook"></a>
+                    <a href="#"><img src="images/twitter-icon.png" alt="Twitter"></a>
+                    <a href="#"><img src="images/instgram-icon.png" alt="Instagram"></a>
+                </div>
+                <div class="contact-info">
+                    <p>Email: info@mindwell.com</p>
+                    <p>Phone: (123) 456-7890</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
